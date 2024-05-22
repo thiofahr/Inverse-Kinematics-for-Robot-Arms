@@ -3,8 +3,8 @@ This is a simple model to visualize the trajectory of a two-arm robot finding it
 
 ## Simple Gradient Algorithm
 while $`dist(T - E)`$ > tolerance:\
-&emsp;$`\theta^{i+1}_{1} = \theta_1^{i} + J(\theta)`$\
-&emsp;$`\theta^{i+1}_{2} = \theta_2^{i} + J(\theta)`$\
+&emsp;$`\theta^{i+1}_{1} = \theta_1^{i} + J_1(\theta)`$\
+&emsp;$`\theta^{i+1}_{2} = \theta_2^{i} + J_2(\theta)`$\
 &emsp;calculate $`E(\theta_{1}, \theta_{2})`$    
 end
 
