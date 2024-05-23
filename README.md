@@ -8,10 +8,11 @@ while $`dist(T - E)`$ > tolerance:\
 &emsp;calculate $`E(\theta_{1}, \theta_{2})`$    
 end
 
-
-
-
-with
+with:
 - $` J_{1}(\theta) = dist(T - E(\theta_{1}-\Delta\theta, \theta_{2})) - dist(T - E(\theta_{1}+\Delta\theta, \theta_{2})) `$
 - $` J_{2}(\theta) = dist(T - E(\theta_{1}, \theta_{2}-\Delta\theta)) - dist(T - E(\theta_{2}, \theta_{2}+\Delta\theta)) `$
 - $` dist()`$ refer to euclidean distance between two given points
+
+
+## Example
+![](https://github.com/thiofahr/Inverse-Kinematics-for-Robot-Arms/blob/main/two-arms-robot.gif)
